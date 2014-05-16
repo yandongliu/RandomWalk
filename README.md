@@ -10,7 +10,8 @@ I wrote some code for search keywords discovery. Given a brand, or a URL, what s
  * other parameters: number of iterations, `p` of coming to root, minimal frequency, etc.
 
 #Output
-| Node | Relative probability |
+|  Node | Relative probability |
+| ---------- | ----------------|
 | q_verizon | 5873.263398339937|
 | u_verizonwireless.com | 1455.9084581603506|
 |q_verizon wireless | 401.6830507740922|
