@@ -1,8 +1,8 @@
 #Rooted Random Walk
 
-Walk on a rooted graph makes sure on every step there's a probability `p` that the walker will come back to root and start over. In other words, the walk is guaranteed to converge no matter where one starts. After some number of iterations we will get a stationary distribution over the whole graph.
+Walking on a rooted graph makes sure on every step there's a probability `p` that the walker will come back to root and start over. In other words, the walk is guaranteed to converge no matter where one starts. After some number of iterations we will get a stationary distribution over the whole graph.
 
-I wrote some code for search keywords discovery. Given a brand, or a URL, what search keywords will most likely to lead to it? This is useful for brand awareness measurement.
+I wrote some code for search keywords discovery. Given a brand, or a URL, what search keywords will most likely lead to it and what URLs people are most likely to visit? This is useful for brand awareness measurement.
 
 #Input
  * search log file: tab separated 3 cols (query url frequency).
@@ -10,7 +10,7 @@ I wrote some code for search keywords discovery. Given a brand, or a URL, what s
  * other parameters: number of iterations, `p` of coming to root, minimal frequency, etc.
 
 #Output
-Sample output when starting node is query "verizon" with prob=1.0:
+Sample output when starting node is query "verizon" with prob = 1.0:
 
 |  Node | Relative probability |
 | ---------- | ----------------|
@@ -26,7 +26,6 @@ Sample output when starting node is query "verizon" with prob=1.0:
 |u_verizon.net | 75.8823853015666|
 |q_verizon wireless my account  | 52.246465116221806|
 |u_verizonwirelessdeals.com | 49.96107820664791|
-|u_geo.yahoo.com/t | 41.8912042708351|
 |q_verizonwireless.com | 23.877661355753848|
 |u_verizon.com.bundlensave.com  | 23.017610430971754|
 |q_my verizon | 20.610333293360657|
